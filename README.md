@@ -1,2 +1,5 @@
 # MammalMirEvo
-Please refer to the descriptions in Readme.txt files under each folder
+
+This repository contains the computational framework and analysis scripts used to investigate how the physical birth of a microRNA locus relates to the onset of its mature expression across mammals. By combining homology searches, empirical structural filtering, and conserved flanking-gene microsynteny across 62 mammalian genomes, the pipeline maps the evolutionary origins of genomic microRNA-like loci. It then pairs these genomic locations with a transcriptomic processing pipeline that screens 210 public small RNA-Seq datasets to independently track the earliest evidence of mature microRNA expression.
+
+The core analysis code and data formatting scripts are provided here to fully replicate our findings, which show that genomic locus origins frequently predate expression-supported common ancestors. This workflow establishes a repeatable method for disentangling these two distinct evolutionary steps, allowing users to trace microRNA locus retention and expression histories across diverse animal taxa. Please refer to the descriptions in Readme.txt files under each folder
